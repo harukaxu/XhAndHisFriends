@@ -1,0 +1,206 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url(../img/fruit.png);
+  background-repeat:repeat;
+}
+#container{
+  width: 900px;
+  height: auto;
+  margin: auto;
+}
+
+
+
+.links a{
+  text-decoration: none;
+  color: #fff;
+}
+.nav{
+  height: 50px;
+  background-color: pink;
+  margin-top: 20px;
+  margin: 20px auto 0 auto;
+  border-radius: 10px;
+}
+.nav-header{
+  color: white;
+  font-size: 2em;
+  font-family: 'Chewy', cursive;
+  margin: 5px 30px;
+  float: left;
+}
+
+.nav-right {
+  color: white;
+  font-size: 1.5em;
+  margin: 8px 20px;
+  float: right;
+}
+
+.nav-right .fa {
+  margin: 4px 5px;
+}
+
+.nav-right i{
+  color: #fff;
+}
+
+.links{
+  color: white;
+  float: left;
+  font-size: 1.5em;
+  padding-left: 13px;
+  padding-right:13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.links:hover{
+  background:#ffb900;
+  color:#FFF
+ }
+
+
+
+
+
+
+.jumbotron{
+  margin-top: 25px;
+  text-align: center;
+  border-radius: 6px;
+  background-image: url(../img/5.jpg);
+}
+.jumbotron h1 {
+    color: snow;
+}
+.word{
+  color: #fff;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.buy{
+  width: auto;
+  height: 200px;
+  margin-top: 25px;
+  background-color: snow;
+}
+.buy-1{
+  float: left;
+  margin-left:39px;
+  margin-right: 39px;
+  text-align: center;
+  margin-top: 25px;
+}
+.buy-2{
+  float: left;
+  margin-top: 25px;
+  text-align: center;
+}
+.buy-1 p{
+  font-size: 10px;
+
+}
+.buy-2 p{
+  font-size: 10px;
+}
+/*.buy-1:hover{
+  background:#ffb900;
+  color:#FFF
+
+ }
+ .buy-2:hover{
+   background:#ffb900;
+   color:#FFF
+  }*/
+
+
+
+
+
+
+
+
+.suo{
+  margin-top: 25px;
+}
+
+.tit{
+  width: auto;
+  height: 50px;
+  text-align: left;
+
+}
+.left{
+  float: left;
+  width: 250px;
+  height: 40px;
+  text-align: center;
+  background-color:pink;
+  border-radius: 10px;
+  font-size:30px;
+  color: snow;
+}
+.right{
+  float: right;
+  font-size:25px;
+  color: #df5656;
+}
+.right img{
+  margin-right: 5px;
+}
+
+.col-sm-6{
+  float: left;
+}
+.zhanshi p{
+  margin-top: 20px;
+}
+.zhanshi a{
+  text-decoration: none;
+  color: #fff;
+}
+.btn-1{
+  background-color: pink;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+.btn-2{
+  background-color: #ffb900;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+
+
+
+
+.footer{
+  width: auto;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  color: snow;
+  border-radius: 6px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  background-color: pink;
+}
+
+
+@media screen and (max-device-width: 600px) {
+
+}
